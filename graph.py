@@ -2,7 +2,7 @@ from facepy import GraphAPI
 import json
 from json2html import *
 import webbrowser
-graph= GraphAPI('YOUR_ACCESS_TOKEN')
+graph= GraphAPI('https://graph.facebook.com/endpoint?key=value&amp;access_token=185059841956329|dfe61870ac12dbdcc7b4d09893dbc49c')
 
 print("Please enter the page-id  " )
 PageId=raw_input()
