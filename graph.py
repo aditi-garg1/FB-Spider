@@ -7,7 +7,7 @@ graph= GraphAPI('185059841956329|JGhapIO9wKIffMzEznCgy--K0us')
 print("Please enter the page-id  " )
 PageId=raw_input()
 
-variable = graph.get(str(PageId)+'/posts?fields=comments.limit(5){message},message&since=today&limit=5')
+variable = graph.get(str(PageId)+'/posts?fields=comments.limit(4){message},message&since=today&limit=4')
 
 
 import json
